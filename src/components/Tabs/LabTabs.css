@@ -1,0 +1,20 @@
+/* LabTabs.css */
+.lab-tabs-container {
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .tab-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tab-content {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .tab-content svg {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,40 @@
+/* Sidebar.css (หรือไฟล์ CSS ที่คุณใช้) */
+.sidebar {
+  width: 250px;
+  background-color: #111827;
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list li {
+  padding: 10px;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.menu-list li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  flex: 1;
+  margin-left: 5px;
+  font-size: 1.2rem; 
+}
+
+.menu-list li a:hover {
+  background-color: #1F2937;
+}
+
+.menu-list li svg {
+  margin-right: 10px;
+  font-size: 1.5rem; 
+}
+
+

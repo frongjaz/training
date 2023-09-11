@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+/* App.css or your custom CSS file */
+
+.flex-container {
+  display: flex;
+  flex-direction: row; /* To align components horizontally */
+  justify-content: space-between; /* To distribute components evenly */
+  align-items: flex-start; /* To align items at the top of the container */
+}
+
+/* You may need to adjust other styles as needed */

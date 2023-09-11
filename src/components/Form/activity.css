@@ -1,0 +1,58 @@
+/* activity.css */
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 00px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #longBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #textInput {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  #outputBox {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  
